@@ -33,4 +33,18 @@
     color: #333;
     cursor: pointer;
   }
+  .backgroundImage{
+    position: relative;
+  }
+  .intro{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-size:xx-large;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+  }
+  
   
