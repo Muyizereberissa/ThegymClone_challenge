@@ -82,12 +82,25 @@
     border: 0.5px solid;
     border-radius: 6px;
     width: 30%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    
   }
   .div4{
     padding: 15px;
     border-color: rgb(81, 78, 78);
     border: 0.5px solid;
     border-radius: 20px;
+    background-color: rgb(25, 25, 62);
+  }
+  .div4 label{
+    color: white;
+  }
+  .guest{
+    display: flex;
+    flex-direction: column;
+    
   }
   
   
