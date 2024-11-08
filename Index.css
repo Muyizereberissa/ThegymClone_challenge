@@ -1,6 +1,36 @@
-header{
+/* Basic reset for margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
     display: flex;
-    flex-direction: row;
-    background-color: aqua;
     justify-content: space-between;
-}
+    align-items: center;
+    padding: 20px;
+   
+   
+  }
+  
+  .logo label {
+    font-size: xx-large;
+    color: rgb(83, 83, 228);
+  }
+  
+  .links {
+    display: flex;
+    gap: 20px; 
+  }
+  
+  .links label {
+    font-size: medium;
+    color: #333;
+    cursor: pointer;
+  }
+  
