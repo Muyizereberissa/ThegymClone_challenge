@@ -147,7 +147,7 @@
     align-items: center;
     gap: 10px;
     width: 100%;
-    margin: 0;
+    margin-top: 10px;
     position: relative;
   }
 
@@ -225,10 +225,11 @@
   }
 
   .j {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     text-align: left;
     margin-left: 50px;
+    margin-top: 5%;
   }
 
   .k {
@@ -326,6 +327,12 @@ margin-left: 50px;
 .t div img{
   height: 15vh;
   width: 50%;
+}
+.last{
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 20px;
+
 }
   
   
